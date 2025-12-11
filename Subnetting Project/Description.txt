@@ -1,0 +1,23 @@
+Subnetting the Network Address 192.168.40.0
+
+no. of departments/subnets(n) = 2
+
+then, 2^N = n = 2
+so N = 1
+where N is borrowed bit
+
+In bits,
+11111111.11111111.11111111.10000000
+
+In decimal,
+Subnet Mask = 255.255.255.128
+
+For Account Department:
+Network Address = 192.168.40.0
+Broadcast Address = 192.168.40.127
+Available Range of IP Address = 192.168.40.1 - 192.168.40.126
+
+For Sales Department: 
+Network Address = 192.168.40.128
+Broadcast Address = 192.168.40.255
+Available Range of IP Address = 192.68.40.129 - 192.168.40.254
